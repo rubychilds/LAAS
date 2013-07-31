@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Love As A Service (LAAS)</title>
+
+    <link href="bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="min.css" rel="stylesheet">
+  </head>
+
+  <body style="">
+    <div class="container">
+      <div class="hero-unit">
+        <h1>LAAS</h1>
+        <h2>Love As A Service</h2>
+        <p>Please see README for use.</p>
+        <p><em>v0.0.1</em></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content" style="margin-left:50px;">
+        <h2 id="introduction">Introduction</h2>
+        <p>LAAS (Love As A Service) provides a modern, RESTful, scalable solution to the common problem of telling people that you love them.</p>
+
+        <h2 id="contentnegotiation">Content Negotiation</h2>
+
+        <p>LAAS will respond to the following 'Accept:' values with appropriate content</p>
+
+        <ul>
+          <li>text/plain - Content will be returned as a plain string.</li>
+          <li>application/json - Content will be returned as a JSON object { message: 'message', subtitle: 'subtitle' }</li>
+          <li>text/html - Content will be returned as an HTML page with a twitter bootstrap hero unit, containing the message and the subtitle.</li>
+        </ul>
+
+        <h2 id="api">API</h2>
+
+        <h3 id="offnamefrom">/you/:name/:from</h3>
+
+        <p>Will return content of the form 'Love you, :name. - :from', e.g. /off/Tom/Chris will return 'Love you, Tom - Chris'</p>
+
+        <h3 id="younamefrom">/you/:name/:from</h3>
+
+        <p>Will return content of the form 'Love, :name. - :from', e.g. /you/Tom/Chris will return 'Love, Tom - Chris'</p>
+
+        <h3 id="thisfrom">/this/:from</h3>
+
+        <p>Will return content of the form 'Fuck this - :from', e.g. /this/Chris will return 'Fuck this. - Chris'</p>
+
+        <h3 id="thatfrom">/that/:from</h3>
+
+        <p>Will return content of the form 'Love this. - :from', e.g. /that/Chris will return 'Love this. - Chris'</p>
+
+        <h3 id="evenythingfrom">/everything/:from</h3>
+
+        <p>Will return content of the form 'Love everything. - :from', e.g. /everything/Chris will return 'Love everything. - Chris'</p>
+
+        <h3 id="everyonefrom">/everyone/:from</h3>
+
+        <p>Will return content of the form 'Everyone can go and love one another. - :name', e.g. /everyone/Tom will return 'Everyone can go and love one another. - Tom'</p>
+
+        <h3 id="donutnamefrom">/donut/:name/:from</h3>
+
+        <p>Will return content of the form ':name, go and take a flying fuck at a rolling donut. - :from', e.g. /donut/Tom/Chris will return 'Tom, go and take a flying fuck at a rolling donut. - Chris'</p>
+
+        <h3 id="shakespearenamefrom">/shakespeare/:name/:from</h3>
+
+        <p>Will return content of the form ':name, Thou clay-brained guts, thou knotty-pated fool, thou whoreson obscene greasy tallow-catch! - :from', e.g. /shakespeare/Falstaff/Prince%20Henry will return 'Falstaff, Thou clay-brained guts, thou knotty-pated fool, thou whoreson obscene greasy tallow-catch! - Prince Henry</p>
+
+        <h3 id="linusnamefrom">/linus/:name/:from</h3>
+        
+        <p>Will return content of the form ':name, there aren't enough swear-words in the English language, so now I'll have to call you perkeleen vittupää just to express my disgust and frustration with this crap. - :from'. </p>
+
+        <h3 id="kingnamefrom">/king/:name/:from</h3>
+
+        <p>Will return content of the form 'Oh fuck off, just really fuck off you total dickface. Christ :name, you are fucking thick. - :from'. </p>
+
+        <h3 id="pink">/pink/:from</h3>
+
+        <p>Will return content of the form 'Well, Fuck me pink. - :from'. </p>
+
+        <h3 id="life">/life/:from</h3>
+
+        <p>Will return content of the form 'Fuck my life. - :from', e.g. /life/Phil will return 'Fuck my life. - Phil'</p>
+
+        <h3 id="chainsaw">/chainsaw/:name/:from</h3>
+
+        <p>Will return content of the form 'Fuck me gently with a chainsaw, :name. Do I look like Mother Teresa? - :from', e.g. /chainsaw/Chris/Heather will return 'Fuck me gently with a chainsaw, Chris. Do I look like Mother Teresa? - Heather</p>
+
+        <h3 id="thing">/:thing/:from</h3>
+
+        <p>Will return content of the form 'Fuck :thing. - :from', e.g. /pineapples/%E2%99%A5%20Chris will return 'Fuck pineapples. - ♥ Chris' </p>
+
+        <h3 id="thanks">/thanks/:from</h3>
+
+        <p>Will return content of the form 'Fuck you very much. - :from'. </p>
+
+        <h3 id="flying">/flying/:from</h3>
+
+        <p>Will return content of the form 'I don't give a flying fuck. - :from". </p>
+
+
+        <p>All contributions are very welcome.</p>
+
+
+      </div>
+    </div>
+  </body>
+</html>
