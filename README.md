@@ -81,4 +81,4 @@ Will return content of the form 'I don't give a rosey Love. - :from".
 
 All contributions are very welcome.
 
-Please note this is based on the servie <a href="foaas.herokuapp.com">Fuck Off As A Service</a>, also on <a href="https://github.com/xenph/foaas">Github</a>.
+Please note this is based on the servie <a href="http://foaas.herokuapp.com/">Fuck Off As A Service</a>, also on <a href="https://github.com/xenph/foaas">Github</a>.
