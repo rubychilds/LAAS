@@ -81,7 +81,7 @@ Will return content of the form 'I don't give a rosey Love. - :from".
 
 All contributions are very welcome.
 
-Please note this is based on the servie <a href="http://foaas.herokuapp.com/">Fuck Off As A Service</a>, also on <a href="https://github.com/xenph/foaas">Github</a>.
+Please note this is based on the service <a href="http://foaas.herokuapp.com/">Fuck Off As A Service</a>, also on <a href="https://github.com/xenph/foaas">Github</a>.
 
 
 Written in <a href="http://www.ruby-lang.org/en/">Ruby</a> using <a href="http://www.sinatrarb.com/">Sinatra</a>
