@@ -51,13 +51,13 @@ end
 
 get '/shakespeare/:name/:from' do
   @name = params[:name].capitalize!
-  @message = "Love looks not with the eyes, but with the mind, And therefore is winged Cupid painted blind"
+  @message = "Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind"
   @from = params[:from].capitalize!
   erb :firstName
 end
 
 get '/war/:name/:from' do
-  @message = "Make Love, not war #{[name].capitalize!}, you are fucking thick"
+  @message = "Make Love, not war #{params[:name].capitalize!}, you are fucking thick"
   @from = - params[:from].capitalize!
   erb :general
 end
@@ -65,7 +65,7 @@ end
 
 get '/pink/:name/:from' do
   @name = params[:name].capitalize!
-  @message = "Well, Love me red"
+  @message = "Love me pink"
   @from = params[:from].capitalize!
   erb :firstName
 end
@@ -78,6 +78,13 @@ get '/life/:name/:from' do
 end
 
 get '/slowly/:name/:from' do
+  @name = params[:name].capitalize!
+  @message = "Love me gentle, Love me slowly"
+  @from = params[:from].capitalize!
+  erb :firstName
+end
+
+get '/aristotle/:name/:from' do
   @name = params[:name].capitalize!
   @message = "Love is composed of a single soul inhabiting two bodies"
   @from = params[:from].capitalize!

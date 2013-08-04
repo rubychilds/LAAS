@@ -44,7 +44,7 @@ Will return content of the form ':name, I Love You like 100 donuts. - :from', e.
 
 ##/shakespeare/:name/:from
 
-Will return content of the form ':name, Love looks not with the eyes, but with the mind, And therefore is winged Cupid painted blind - :from', e.g. /shakespeare/Falstaff/Prince%20Henry will return 'Falstaff, Love looks not with the eyes, but with the mind, And therefore is winged Cupid painted blind- Prince Henry
+Will return content of the form ':name, Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind - :from', e.g. /shakespeare/Falstaff/Prince%20Henry will return 'Falstaff, Love looks not with the eyes, but with the mind, And therefore is winged Cupid painted blind- Prince Henry
 
 ##/war/:name/:from
 
@@ -52,7 +52,7 @@ Will return content of the form 'Make Love, not war :name, you are fucking thick
 
 ##/red/:from
 
-Will return content of the form 'Well, Love me red. - :from'. 
+Will return content of the form 'Well, Love me pink. - :from'. 
 
 ##/life/:from
 
@@ -72,7 +72,7 @@ Will return content of the form 'Love :thing. - :from', e.g. /pineapples/%E2%99%
 
 ##/thanks/:from
 
-Will return content of the form 'Love you very much. - :from'. 
+Will return content of the form 'Thank you very much. - :from'. 
 
 ##/flying/:from
 
@@ -82,3 +82,8 @@ Will return content of the form 'I don't give a rosey Love. - :from".
 All contributions are very welcome.
 
 Please note this is based on the servie <a href="http://foaas.herokuapp.com/">Fuck Off As A Service</a>, also on <a href="https://github.com/xenph/foaas">Github</a>.
+
+
+Written in <a href="http://www.ruby-lang.org/en/">Ruby</a> using <a href="http://www.sinatrarb.com/">Sinatra</a>
+
+Created and Maintained by <a href="https://twitter.com/RubyChilds">@RubyChilds</a>
