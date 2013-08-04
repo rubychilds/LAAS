@@ -11,26 +11,33 @@ get '/you/:name/:from' do
   erb :secondName
 end
 
+get '/:name/:from' do
+  @message = "Love #{params[:name].capitalize!}"
+  @from = params[:from].capitalize!
+  erb :general
+end
+
+
 get '/this/:from' do
-  @message = "Love this."
+  @message = "Love this"
   @from = params[:from].capitalize!
   erb :general
 end
 
 get '/that/:from' do
-  @message = "Love that."
+  @message = "Love that"
   @from = params[:from].capitalize!
   erb :general
 end
 
 get '/everything/:from' do
-  @message = "Love everything."
+  @message = "Love everything"
   @from = params[:from].capitalize!
   erb :general
 end
 
 get '/everyone/:from' do
-  @message = "Everyone can go and love one another."
+  @message = "Everyone can go and love one another"
   @from = params[:from].capitalize!
   erb :general
 end
@@ -50,7 +57,6 @@ get '/shakespeare/:name/:from' do
 end
 
 get '/war/:name/:from' do
-  @name = params[:name].capitalize!
   @message = "Make Love, not war #{[name].capitalize!}, you are fucking thick"
   @from = - params[:from].capitalize!
   erb :general
