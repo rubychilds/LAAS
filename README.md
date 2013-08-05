@@ -60,11 +60,11 @@ Will return content of the form 'Loving my life. - :from', e.g. /life/Phil will 
 
 ##/slowly/:name/:from
 
-Will return content of the form 'Love me gentle, Love me slowly :name.  - :from', e.g. /chainsaw/Chris/Heather will return 'Love me gentle, Love me slowly, Chris. - Heather
+Will return content of the form 'Love me gentle, Love me slowly :name.  - :from', e.g. /slowly/Chris/Heather will return 'Love me gentle, Love me slowly, Chris. - Heather
 
 ##/aristotle/:name/:from
 
-Will return content of the form ':name, Love is composed of a single soul inhabiting two bodies. - :from', e.g. /chainsaw/Chris/Heather will return 'Chris, Love is composed of a single soul inhabiting two bodies. - Heather
+Will return content of the form ':name, Love is composed of a single soul inhabiting two bodies. - :from', e.g. /aristotle/Chris/Heather will return 'Chris, Love is composed of a single soul inhabiting two bodies. - Heather
 
 ##/:thing/:from
 
